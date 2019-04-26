@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animate.min.css">
+</head>
+<body>
+    <div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+			<div class="nav-con">
+				<div class="nav-left">
+					<h3>个人网站</h3>
+				</div>
+				<div class="nav-right">
+					<ul>
+						<li><a href="#jieshao">基本信息</a></li>
+						<li><a href="#main2">我的喜爱</a></li>
+						<li><a href="#main3">我的作品</a></li>
+						<li><a href="#main4">联系我</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!-- 头部 -->
+        <div class="header">
+            <div class="into">
+                <div class="into-con">
+                    <div class="header-con">
+                        <h1>杨婕蓉-个人网站</h1>
+                        <p>喜欢技术，热爱挑战</p>
+                        <a href="#jieshao"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 内容-->
+        <div class="main">
+            <div class="main1">
+                <div class="main-1">
+					<h1 id="jieshao">About Myself</h1>
+                    <div class="user">
+						<div class="user-lf">
+							<div class="user-con animated bounceInUp">
+								<p>姓名：杨婕蓉 性别：女籍贯：山西运城</p>
+								<p>个人爱好：听音乐</p>
+								<p>个人名言：人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</p>
+								<p>掌握：html、css、js、jQuery</p>
+								<p>个人评价：个人比较内向，不太爱说话，比较沉稳，有上进心。</p>
+							</div>
+						</div>
+						<div class="user-rg">
+							<img src="images/blog1.jpg">
+						</div>
+					</div>
+                </div>
+            </div>
+            <div class="main2" id="main2">
+                <div class="main-3">
+                    <div class="subbox">
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+					</div>
+					<div class="subbox">
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+					</div>
+					<div class="subbox">
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+					</div>
+					<div class="subbox">
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+					</div>
+					<div class="subbox">
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+						<div class="sub"></div>
+					</div>
+					<div class="control">
+						<div class="prev">&lt;</div>
+						<div class="next">&gt;</div>
+					</div>
+                </div>
+			</div>
+
+			<div class="main3">
+				<div class="main3-lf">
+					<img src="images/g1.jpg">
+				</div>
+				<div class="main3-con">
+					<div><img src="images/g2.jpg"></div>
+					<div><img src="images/g3.jpg"></div>
+					<div><img src="images/g4.jpg"></div>
+					<div><img src="images/g5.jpg"></div>
+				</div>
+				<div class="main3-rg">
+					<img src="images/g6.jpg" alt="">
+				</div>
+			</div>
+			
+			<div class="main-2" id="main3">
+				<div class="banner">
+					<ul>
+						<li>
+							<img src="images/img1.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/img2.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/banner01.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/img4.jpg" alt="">
+						</li>
+						<li>
+							<img src="images/banner02.jpg" alt="">
+						</li>
+					</ul>
+					<ol>
+						<li class="on">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ol>
+					<span class="left"></span>
+					<span class="right"></span>
+				</div>
+			</div>
+
+			<!-- 底部 -->
+			<div class="main-4" id="main4">
+				<div class="m4lf">
+					<p>关注我，了解我</p>
+					<ul>
+						<li><img src="images/timg.jpg" alt=""></li>
+						<li><img src="images/timg (1).jpg" alt=""></li>
+						<li><img src="images/timg (2).jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    </div>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(function () {
+			$(".subbox").each(function(index){
+				// this：原生js对象
+				// $(this)：jQuery对象
+				$(this).css({"left":240*index+"px","transitionDelay":index*0.3+"s"});
+				$(this).find(".sub").css({"backgroundPosition":-240*index+"px"});
+			})
+		});
+		var num = 0;
+		var timer = setInterval(movefn,3000);
+
+		$(".control .prev").on("click",function(){
+			$(".subbox").css("transform","rotateX("+(++num*-90)+"deg)");
+		})
+		$(".control .next").on("click",function(){
+			$(".subbox").css("transform","rotateX("+(--num*-90)+"deg)");
+		})
+
+		$(".box").hover(function(){
+			clearInterval(timer)
+		},function(){
+			timer = setInterval(movefn,3000);
+		})
+
+		function movefn(){
+			$(".subbox").css("transform","rotateX("+(++num*-90)+"deg)");
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.banner span').hide();
+			$('.banner').mouseover(function(){
+				$('.banner span').show();
+			})
+			$('.banner').mouseout(function(){
+				$('.banner span').hide();
+			})
+
+			var index = 0;
+			var len = $("ol >li").length;
+			var timer;
+			//上一个按钮
+			$('.banner .left').click(function(){
+				index --;
+				if (index == - 1) {
+					index = len - 1;
+				};
+				showImg(index);
+			})
+			//下一个按钮
+			$('.banner .right').click(function(){
+				index ++;
+				if (index == len) {
+					index = 0;
+				};
+				showImg(index);
+			})
+			$(".banner ol li").mouseover(function() {
+				index = $('.banner ol li').index(this);
+				showImg(index);
+			}).eq(0).mouseover();
+
+			$('.banner').hover(function() {
+				clearInterval(timer);
+			},function() {
+				timer = setInterval(function() {
+					showImg(index)
+					index++;
+					if(index == len){
+						index = 0;
+					}
+				},2000);
+			}).trigger("mouseleave");
+		});
+		function showImg(index) {
+		    $('.banner ul li').eq(index).stop(true,false).fadeIn().siblings().stop(true,false).fadeOut();
+		    $('.banner ol li').removeClass('on').eq(index).addClass('on');
+		}
+	</script>
+</body>
+</html>
