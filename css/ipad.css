@@ -1,0 +1,479 @@
+/* 头部 */
+.header{
+    width: 100%;
+}
+.header .container {
+    width: 100%;
+}
+.container .logo {
+    width: 20%;
+}
+.container .nav {
+    width: 75%;
+}
+.container .nav ul li {
+    float: left;
+    width: 8%;
+    height: 60px;
+    margin-left: 35px;
+}
+.container .nav ul li.select {
+    color: #24b727;
+    border-bottom: 3px solid #24b727;
+    margin-top: -3px;
+}
+.container .nav ul li:hover a{
+    color: #24b727;
+}
+.container .control {
+    display: none;
+}
+
+
+/* 轮播图 */
+.banner{
+    width: 100%;
+    height: 680px;
+}
+
+
+/* 案例 */
+.case_main {
+    width: 100%;
+    height: 683px;
+}
+.case_main .title {
+    width: 100%;
+}
+.case_main .case_con {
+    width: 100%;
+}
+.case_main .case_con li {
+    width: 28%;
+    margin: 15px 10px 15px 20px;
+}
+.case_main .case_con li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 体验设计与开发 */
+.service {
+    width: 100%;
+    height: 780px;
+}
+.service .title {
+    width: 100%;
+}
+.service .service-con {
+    width: 100%;
+}
+.service .service-con ul {
+    width: 20%;
+    margin: 50px 10px 0 70px;
+}
+
+/* 用户体验 */
+.about {
+    width: 100%;
+}
+.about .about-con {
+    width: 80%;
+}
+
+/* 项目体验 */
+.project {
+    width: 100%;
+    height: 890px;
+}
+.project .title {
+    width: 100%;
+}
+.project .project_con {
+    width: 100%;
+}
+.project_con li {
+    width: 28%;
+    height: 245px;
+    margin: 15px 15px 50px 15px;
+}
+.project_con li img {
+    width: 100%;
+    height: 100%;
+}
+.project_con li p {
+    width: 100%;
+}
+
+/* 博讯科技 */
+.client {
+    width: 100%;
+    height: 352px;
+}
+.client .title {
+    width: 100%;
+}
+.client .client_con {
+    width: 100%;
+}
+.client_con li {
+    width: 16.67%;
+    margin: 15px 10px 15px 35px;
+}
+.client_con li img {
+    width: 100%;
+}
+
+/* 尾部 */
+.main-foot {
+    width: 100%;
+}
+.main-foot .footer {
+    width: 100%;
+}
+.footer .footer-top {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.footer-top .footer-lf {
+    display: none;
+}
+.footer-top .footer-md {
+    width: 70%;
+}
+.footer-top .footer-md ul {
+    width: 15%;
+    margin: 0 0 0 40px;
+}
+.footer-top .footer-rg {
+    width: 20%;
+    margin-right: 5%;
+}
+.footer-top .footer-rg p {
+    width: 100%;
+}
+.footer .footer-bottom {
+    width: 100%;
+}
+
+
+
+
+/* about页面 */
+.tupian{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 400px;
+}
+.main-tab {
+    width: 100%;
+}
+.main-tab ul{
+    width: 100%;
+}
+.main-tab ul li {
+    width: 25%;
+    margin: 0;
+}
+.main-about  {
+    width: 100%;
+}
+.main-about .about-who {
+    width: 100%;
+}
+.about-who .about-title {
+    width: 100%;
+}
+.about-who p {
+    width: 90%;
+}
+.main-about .about-btm {
+    width: 95%;
+    margin: 70px auto;
+}
+.about-btm li {
+    width: 23%;
+    margin: 0 35px 0 20px;
+}
+.about-btm li img {
+    width: 100%;
+}
+.about-btm li p{
+    font-size: 0.85rem;
+}
+.proj {
+    width: 100%;
+    height: 668px;
+}
+.proj .proj-cen{
+    width: 100%;
+}
+.proj-cen .cen-title {
+    width: 100%;
+}
+.proj-cen .cen-con {
+    width: 95%;
+    margin: 50px auto;
+}
+.cen-con li {
+    width: 30%;
+    margin: 8px;
+}
+.cen-con li img {
+    width: 100%;
+}
+.team {
+    width: 100%;
+}
+.team .team-title {
+    width: 100%;
+}
+.team .team-title p {
+    width: 90%;
+}
+.team .team-con {
+    width: 90%;
+    margin: 50px auto;
+}
+.team-con ul {
+    width: 60%;
+}
+.team-con ul li {
+    width: 50%;
+}
+.team-con ul li img {
+    width: 100%;
+}
+.team-con div {
+    width: 40%;
+}
+.team-con div img {
+    width: 100%;
+}
+.demand {
+    width: 100%;
+}
+.demand .dd-tab {
+    width: 100%;
+}
+.dd-tab img {
+    width: 100%;
+    height: 261px;
+    margin: 60px auto;
+}
+
+
+
+/* 动态 */
+.photo{
+    width: 100%;
+    height: 500px;
+    background: url(../images/dongtai/article.jpg) no-repeat;
+    background-size: 100% 500px;
+}
+.content {
+    width: 100%;
+    height: 1505px;
+    margin: 0 auto;
+}
+.content .ctt-lf {
+    display: none;
+}
+.content .ctt-rg {
+    width: 100%;
+    height: 1505px;
+    margin-left: 0;
+}
+.ccc img{
+    width: 30%;
+    height: 180px;
+}
+.ccc ul {
+    width: 65%;
+    height: 141px;
+    margin-right: 20px;
+    display: block;
+}
+
+
+
+/* 案例 */
+.photo1{
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+}
+.blog_tab {
+    width: 100%;
+}
+.blog_tab ul {
+    width: 100%;
+    margin: 0 auto;
+}
+.blog_tab ul li {
+    width: 25%;
+    text-align: center;
+}
+.cose {
+    width: 100%;
+}
+.cose ul {
+    width: 100%;
+}
+.cose ul li {
+    float: left;
+    width: 32%;
+    height: 275px;
+    margin: 40px 5px 0 5px;
+}
+.cose ul li img{
+    width: 100%;
+    height: 220px;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .photo1{
+        width: 100%;
+        height: 500px;
+        background-size: 100% 500px;
+    }
+    .blog_tab {
+        width: 100%;
+    }
+    .blog_tab ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog_tab ul li {
+        width: 25%;
+        text-align: center;
+    }
+    .cose {
+        width: 100%;
+        height: 1005px;
+    }
+    .cose ul {
+        width: 100%;
+    }
+    .cose ul li {
+        float: left;
+        width: 47%;
+        height: 275px;
+        margin: 40px 5px 0 5px;
+    }
+    .cose ul li img{
+        width: 100%;
+        height: 220px;
+    }
+    .cose .ddd {
+        width: 79px;
+        height: 20px;
+        margin: 330px auto;
+        border: 1px solid #000;
+        padding: 2px 9px 2px 9px;
+    }
+}
+
+
+
+
+/* 服务 */
+.photo2{
+    width: 100%;
+    height: 500px;
+    background: url(../images/fuwu/service.jpg) no-repeat;
+    background-size: 100% 500px;
+}
+.main-tab1 ul{
+    width: 100%;
+}
+.main-tab1 ul li {
+    width: 20%;
+    margin: 0;
+}
+.service1 {
+    width: 100%;
+    height: 855px;
+}
+.service1 .service1-title {
+    width: 100%;
+}
+.service1 .service1-bt {
+    width: 100%;
+}
+.service1 .service1-bt ul {
+    width: 26%;
+    text-align: center;
+    margin: 50px 0 0 30px;
+}
+.solution {
+    width: 100%;
+    height: 1100px;
+}
+.solution h1 {
+    width: 100%;
+}
+.solution .solution-con {
+    width: 100%;
+    height: 610px;
+}
+.solution-con li {
+    width: 30%;
+    margin: 30px 10px 0 10px;
+}  
+.solution-con li img {
+    width: 100%;
+}
+.client1 {
+    width: 100%;
+    height: 500px;
+}
+.client1 h1 {
+    width: 100%;
+}
+.client1 .client1_con {
+    width: 100%;
+    height: 296px;
+}
+.client1_con li {
+    width: 157px;
+}
+.client1_con li img {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+    .client1 {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+
+
+/* 知识 */
+.photo3{
+    width: 100%;
+    height: 500px;
+    background: url(../images/zhishi/zhishi.jpg) no-repeat;
+    background-size: 100% 500px;
+}
+.main-tab2 ul{
+    width: 100%;
+}
+.main-tab2 ul li {
+    width: 33.3%;
+    margin: 0;
+}
+.blogs {
+    width: 100%;
+    height: 510px;
+}
+.blogs ul {
+    width: 100%;
+}
+.blogs ul li {
+    width: 30%;
+    margin: 40px 10px 0 10px;
+}
+.blogs ul li img {
+    width: 100%;
+}
